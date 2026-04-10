@@ -1,0 +1,24 @@
+{
+	"name": "turokv",
+	"private": true,
+	"type": "module",
+	"module": "index.ts",
+	"types": "index.ts",
+	"exports": {
+		".": "./index.ts"
+	},
+	"scripts": {
+		"fmt": "oxfmt",
+		"lint": "oxlint",
+		"test": "bun test"
+	},
+	"dependencies": {
+		"tpl-sql": "^0.0.4"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"@libsql/client": "^0.17.2"
+	}
+}
